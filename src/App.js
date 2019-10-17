@@ -1,10 +1,14 @@
 import React from 'react';
+import { BrowserRouter as Router } from 'react-router-dom';
+import Home from './Home';
 
 class App extends React.Component {
     render() {
         return (
             <div>  
-                Hello World! {this.props.name}
+                <Router>
+                    <Home></Home>
+                </Router>
             </div>
         );
     }
