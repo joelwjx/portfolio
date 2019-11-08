@@ -43,4 +43,6 @@ class Home extends React.Component {
     }
 }
 
+//background: radial-gradient(circle, rgba(255,255,255,1) 66%, rgba(244,244,244,1) 100%);
+
 export default Home;
